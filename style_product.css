@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+.body {
+    width: 80%;
+    margin: auto;
+}
+.hero {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 13px;
+    color: #288ad6;
+    padding: 0 10px 0 0;
+}
+.title {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 10px 10px 0;
+}
+.label {
+    height: 18px;
+    display: inline-block;
+}
+.box_left {
+    float: left;
+    width: 60%;
+}
+.img_head {
+    width: 100%;
+    margin: 10px 0;
+}
+.under_head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.title_under_head {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: bold;
+    color: #288ad6;
+    margin: 0 10px 0 0;
+}
+.number {
+    color: black;
+    font-weight: normal;
+}
+.total {
+    display: flex;
+    justify-content: center;
+}
+.style {
+    width: 50px;
+    height: 50px;
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(77, 77, 77, 0.377);
+}
+.images_icon {
+    width: 25px;
+}
+ul {
+    float: left;
+    padding: 0px;
+}
+li {
+    font-family: 'roboto';
+    font-size: 12px;
+    list-style-type: none;
+    float: left;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    color: rgba(77, 77, 77,);
+    margin: 0px 5px; 
+}
+.insurance {
+    width: 100%;  
+}
+.list_insurance {
+    width: 49%;
+    height: 75px;
+    float: left;
+    align-items: center;
+}
+.insurance_icon {
+    float: left;
+}
+.isurance_text {
+    float: left;
+}
+.text_insurance {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    width: 80%;
+    margin: 0px;    
+}
+.images_insurance {
+    width: 35px;
+    margin-right: 10px; 
+}
+.another_product {
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #288ad6;
+}
+.detail_TV {
+    width: 100%;
+}
+h1 {
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+a {
+    text-decoration: none;
+    color: #288ad6;
+}
+.text1 {
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.486);
+    line-height: 20px;
+}
+
+
+
