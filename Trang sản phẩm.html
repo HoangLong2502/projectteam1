@@ -7,10 +7,55 @@
     <title>Document</title>
     <link rel="stylesheet" href="style_product.css">
 </head>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
-</style>
 <body>
+    <div class="img-header-box">
+        <img src="/images/1200-44-1200x44-1.png">
+    </div>
+    <div class="heading">
+        <div class="header">
+            <div class="header-box">
+                <div class="header-search">
+                    <a href="" class="header-search-link">
+                        <img src="/img/header-img.png" alt="" class="header-search-img">
+                    </a>
+                    <div href="" class="header-search-exist">
+                        <p>
+                            <p class="header-search-exist-1">Xem giá, tồn kho tại:</p>
+                            <p class="header-search-exist-2">Hồ Chí Minh <i class="fas fa-sort-down header-search-exist-icon"></i></p>
+                        </p>
+                    </div>
+                    <div class="header-search-input">
+                        <input type="text" class="header-search-input-input" placeholder="Bạn tìm gì ...">
+                        <i class="fas fa-search header-search-input-icon"></i>
+                    </div>
+                    <button class="header-search-cart">
+                        <i class="fas fa-shopping-cart header-search-cart-icon"></i>
+                        <p>Giỏ hàng</p>
+                    </button>
+                    <a href="" class="header-search-history">Lịch sử đơn hàng</a>
+                </div>
+                <div class="header-support">
+                    <a href="" class="header-support-1">Tư vấn chọn mua</a>
+                    <a href="" class="header-support-1">Khuyến mãi</a>
+                    <a href="" class="header-support-1">Vào bếp</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-sub">
+            <div class="header-sub-box">
+                <div class="header-sub-category">
+                    <span class="header-sub-category-category">
+                        <p class="header-subcategory-text">Danh mục</p><i class="fas fa-sort-down header-sub-item-catalog-icon"></i>
+                    </span>
+                    <span class="header-sub-item-text">Tất cả nhóm hàng</span>
+                </div>
+                <a style="margin-left: 30px;" href="" class="header-sub-item">Máy Giặt mua Online giảm đến 30%</a>
+                <a href="" class="header-sub-item">Tủ Lạnh giảm sâu đến 24%</a>
+                <a href="" class="header-sub-item">Chỉ bán online - Gia dụng giảm đến 49%</a>
+            </div>
+        </div>
+    </div>
+
     <div class="body">
         <div class="top">
             <div>
@@ -22,7 +67,7 @@
                 <p class="title">
                     Android Tivi QLED TCL 4K 55 inch 55Q726 
                 </p>
-                <img src="images/label-only.png" class="label">
+                <img src="/images/label-only.png" class="label">
             </div>
         </div>
         <hr>
@@ -33,26 +78,26 @@
                 <span class="title_under_head number">(1/13)</span>
             </div>
             <div class="total">
-                <ul>
-                    <li>
+                <ul class="ul_total">
+                    <li class="li_total">
                         <div class="style">
                             <img src="images/icon/icon_chitiet@2x-min 1.png" class="images_icon">
                         </div>
                         <p>Điểm nổi bật</p>
                     </li>
-                    <li>
+                    <li class="li_total">
                         <div class="style">
                             <img src="images/icon/icon_tivi_small.jpg" class="images_icon">
                         </div>
                         <p>Đen</p>
                     </li>
-                    <li>
+                    <li class="li_total">
                         <div class="style">
                             <img src="images/icon/chitiet_thongso.png" class="images_icon">
                         </div>
                         <p>Thông số kỹ thuật</p>
                     </li>
-                    <li>
+                    <li class="li_total">
                         <div class="style">
                             <img src="images/icon/chitiet_danhgia.png" class="images_icon">
                         </div>
@@ -109,7 +154,166 @@
             </div>
         </div>
         <div class="box_right">
-
+            <div class="list_inch">
+                <span class="inch">50 inch</span>
+                <span class="inch">55 inch</span> 
+                <span class="inch">65 inch</span> 
+            </div>
+            <div class="header_right">
+                <div class="andress_price">
+                    <p>Giá tại
+                        <a href="">Hồ Chí Minh</a>
+                    </p>
+                </div>
+                <div>
+                    <span class="price_sale">16.990.000₫</span>
+                    <span class="price">20.990.000₫</span>
+                    <span class="sale_percent">-19%</span>
+                    <Span class="installment_percent">Trả góp 0%</Span>
+                </div>
+            </div>
+            <div class="promotion">
+                <div class="promotion_top">
+                    <h3 style="margin: 5px;">Khuyến mãi</h3>
+                    <p style="margin: 5px;">Giá và khuyến mãi dự kiến áp dụng đến 23:00 31/10</p>
+                </div>
+                <div class="promotion_under">
+                    <div class="promotion_insite">
+                        <div class="promotion_list">1</div>
+                        <div class="promotion_list_insite">
+                            Tặng bộ 4 ứng dụng giải trí:
+                            <ul class="promotion_ul">
+                                <li class="promotion_li">
+                                    <span>Miễn phí 12 tháng sử dụng gói Cơ bản trên ứng dụng CLIPTV</span>
+                                    <a href="https://www.dienmayxanh.com/kinh-nghiem-hay/huong-dan-nhan-khuyen-mai-cliptv-tren-tivi-tcl-1082550">(Click xem chi tiết)</a>
+                                </li>
+                                <li class="promotion_li">
+                                    <span>Miễn phí 12 tháng dịch vụ xem truyền hình cơ bản và phim 4K trên ứng dụng FPT Play</span>
+                                </li>
+                                <li class="promotion_li">
+                                    <span>Miễn phí 12 tháng xem phim và truyền hình trên ứng dụng VieOn</span>
+                                </li>
+                                <li class="promotion_li">
+                                    <span>Miễn phí 12 tháng sử dụng VTVCab On và 3 tháng VTVCab On VIP</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="promotion_insite">
+                        <div class="promotion_list">2</div>
+                        <div class="promotion_list_insite">Miễn phí công lắp đặt</div>
+                    </div>
+                    <div class="promotion_insite">
+                        <div class="promotion_list">3</div>
+                        <div class="promotion_list_insite">Giảm thêm 7% khi mua cùng sản phẩm bất kỳ có giá cao hơn</div>
+                    </div>
+                    <div class="promotion_insite">
+                        <div class="promotion_list">4</div>
+                        <div class="promotion_list_insite">Hoàn tiền 5% tối đa 500.000đ cho hóa đơn từ 500.000đ khi thanh toán qua Ví Moca trên ứng dụng Grab</div>
+                    </div>
+                    <div class="promotion_insite">
+                        <div class="promotion_list">5</div>
+                        <div class="promotion_list_insite">Nhập mã DMX100 giảm 3% tối đa 100.000đ khi thanh toán quét QRcode qua App của ngân hàng</div>
+                    </div>
+                </div>
+            </div>
+            <div class="andress">
+                <h3>CÒN HÀNG</h3>
+                <div class="andress_box"> 
+                    <img src="images/icon/icon_andress.png" class="andress_img">
+                    <span>Giao tới Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội</span>
+                    <a href="">Đổi</a>
+                </div>
+                <div class="time_ship">
+                    <p>Giao hàng
+                        <span>Từ 20h00 - 22h00 hôm nay (22/10)</span>
+                    </p>
+                    <p>Miễn phí giao hàng</p>
+                </div>
+                <div class="andress_box">
+                    <img src="images/icon/icon_market.png" class="andress_img">
+                    <a href="">Xem siêu thị có hàng trưng bày</a>
+                </div>
+            </div>
+            <div class="pay_favors">
+                <h4>Ưu đãi khi thanh toán</h4>
+                <div class="FE">
+                    <span>
+                        <img src="images/icon/icon_FE.png" alt="">
+                    </span>
+                    <span style="color:#288ad6">Giảm 
+                        <span style="font-weight: bold;">200.000₫</span>
+                    </span>
+                    <span style="color: #666; font-size: 12px;">
+                        Sản phẩm từ 1 Tr
+                    </span>
+                    <div class="FE_infor">?</div>
+                    <span class="FE_buynow">Mua Ngay</span>
+                </div>
+                <div class="button_pay">
+                    <div class="buy_now">MUA NGAY</div>
+                    <div class="installment">
+                        <p style="font-size: 13px;">MUA TRẢ GÓP 0%</p>
+                        <p>Duyệt hồ sơ trong 5 phút</p>
+                    </div>
+                    <div class="installment" style="margin-left: 2px;">
+                        <p style="font-size: 13px;">TRẢ GÓP 0% QUA THẺ</p>
+                        <p>Visa, Mastercard, JBC, Annex</p>
+                    </div>
+                </div>
+                <div class="callforbuy">
+                    <p>Gọi đặt Mua <span>1900.1061</span>(7:30-22:00)</p>
+                </div>
+                <div class="favors">
+                    <div class="favors_top">
+                        <h4>5 ưu đãi thêm</h4>
+                        <span>Dự kiến áp dụng đến 23:00 31/10</span>
+                    </div>
+                    <div class="favors_bottom">
+                        <div class="favors_list">
+                            <img src="images/icon/icon_tickgreen.png" alt="">
+                            <span>Mua Loa karaoke giảm giá 20%(Loa mua kèm không áp dụng thêm khuyến mãi khác)
+                                <a href="">(Click xem chi tiết)</a>
+                            </span>
+                        </div>
+                        <div class="favors_list">
+                            <img src="images/icon/icon_tickgreen.png" alt="">
+                            <span>Mua Loa/bộ loa/amply karaoke giảm giá 10%(Loa mua kèm không áp dụng thêm khuyến mãi khác)
+                                <a href="">(Click xem chi tiết)</a>
+                            </span>
+                        </div>
+                        <div class="favors_list">
+                            <img src="images/icon/icon_tickgreen.png" alt="">
+                            <span>Mua kèm ỔN ÁP ROBOT giảm giá 25%(Không áp dụng KM khác).
+                                <a href="">(Click xem chi tiết)</a>
+                            </span>
+                        </div>
+                        <div class="favors_list">
+                            <img src="images/icon/icon_tickgreen.png" alt="">
+                            <span>Mua kèm Máy phun xịt rửa áp lực cao Bosch Easy AQT giảm giá 20%
+                                <a href="">(Click xem chi tiết)</a>
+                            </span>
+                        </div>
+                        <div class="favors_list">
+                            <img src="images/icon/icon_tickgreen.png" alt="">
+                            <span>Mua kèm Máy xịt rửa cao áp Kachi MK-164 giảm giá 20%
+                                <a href="">(Click xem chi tiết)</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1>Thông số kỹ thuật Android Tivi QLED TCL 4k 55 inch 55Q726</h1>
+                <div class="information one">
+                    <div class="column1">Loại tivi:</div>
+                    <div class="column2">Android Tivi QLED, 55 inch, 4K</div>
+                </div>
+                <div class="information">
+                    <div class="column1">Hệ điều hành:</div>
+                    <div class="column2">Android 11</div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
